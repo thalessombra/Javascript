@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(70, 142, 233);
+    font: normal 15pt Arial;
+}
+footer{
+    text-align: center;
+
+}
+section > div{
+background-color: white;
+width: 500px;
+border-radius: 15px;
+padding: 20px;
+margin: auto;
+color: black;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
