@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Troco</h1>
+    <input type="button" value="Comprar produto" id="p1" onclick="trocar()" >
+
+    
+    <script>
+        
+        function trocar() {
+            var p = document.getElementById('p1')
+            window.prompt(' que produto vai comprar?') 
+            var v =Number(window.prompt('Quanto custou o produto?'))
+            var r =Number(window.prompt('Quanto voce pagou?'))
+            var t = r - v
+
+
+
+         window.alert(` o produto custou  R$${v}, voce pagou R$${r}. Seu troco é de R$${t} `)
+         
+        }
+
+    </script>
+</body>
+</html>
